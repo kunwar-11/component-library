@@ -10,3 +10,92 @@
     --text : #e2e2e2;
     --white : #ffffff;
 }
+
+@media screen and (min-width : 768px) {
+    /* ALERT */
+    .alert{
+        width: 45%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    /*AVATAR */
+    .avatar{
+        width: 40px;
+    }
+    .avatar-loggedOut{
+        padding: 6px 7px;
+        border : 1px solid var(--text);
+        border-radius: 100%;
+    }
+    
+    .avatar-signIN{
+        width: 40px;
+        border-radius: 100%;
+    }
+    .avatar-text{
+        width: 40px;
+        background-color: chocolate;
+        border-radius: 100%;
+        padding: 10px 0px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .profile-icon{
+        width: 24px;
+        height: 24px;
+    }
+    /* BUTTONS */
+    .btn{
+        padding: 0.6rem 1rem;
+        font-weight: bold;
+        font-family: inherit;
+        border-radius: 0.7rem;
+        border-style: none;
+        cursor: pointer;
+        outline: none;
+    }
+    .btn-secondary{
+        color: var(--primary);
+        border: 0.5px solid var(--primary);
+    }
+    .btn-secondary:hover{
+        background-color: var(--primary);
+        color: var(--white);
+    }
+    .btn-secondary-success{
+        color: var(--success);
+        border: 0.5px solid var(--success);
+    }
+    .btn-secondary-success:hover{
+        background-color: var(--success);
+        color : var(--white);
+    }
+    .btn-secondary-warning{
+        color: var(--warning);
+        border: 0.5px solid var(--warning);
+    }
+    .btn-secondary-warning:hover{
+        background-color: var(--warning);
+        color: black;
+    }
+    .btn-secondary-danger{
+        color: var(--danger);
+        border: 0.5px solid var(--danger);
+    }
+    .btn-secondary-danger:hover{
+        background-color: var(--danger);
+        color: white;
+    }
+    /* LINKS */
+    .link{
+        margin: 1rem;
+    }
+    /*  ICONS and FLOATING ACTION BUTTON*/
+    .floating-action{
+        padding: 0.7rem 0.8rem;
+    }
+    /* BADGE */
+    .badge ,    .badge-pills{
+        padding: 2px 5px;
+    }
+}
