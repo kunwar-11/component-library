@@ -19,31 +19,18 @@
 .divider{
     height: 1px;
     background-color: var(--white);
+    margin: 0.5rem 0rem;
 }
 /* AVATARS */
 .avatar{
     width: 30px;
-}
-.avatar-loggedOut{
-    padding: 3px 4px;
-    border : 1px solid var(--text);
     border-radius: 100%;
 }
-.profile-icon{
-    width: 18px;
-    height: 18px;
+.avatar-2x {
+    width: 45px;
 }
-.avatar-signIN{
-    width: 30px;
-    border-radius: 100%;
-}
-.avatar-text{
-    width: 30px;
-    background-color: chocolate;
-    border-radius: 100%;
-    padding: 6px 0px;
-    font-weight: bold;
-    text-align: center;
+.avatar-3x{
+    width: 55px;
 }
 /* ALERTS */
 .alert {
@@ -178,3 +165,46 @@
     color: var(--white);
 }
 /* CARDS*/
+.card{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--text);
+    position: relative;
+}
+.card__img{
+    width: 100%;
+    object-fit: cover;
+}
+.card-badge{
+    position: absolute;
+    padding: 0.5rem 0.7rem;
+    font-size: 1rem;
+    font-family: inherit;
+    top: 18px;
+    left: 0;
+}
+.card__header , .card__text {
+    background-color: var(--text);
+    color: var(--background-secondary);
+    padding: 1rem;
+}
+.card__dismiss{
+    border-style: none;
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    padding: 0.4rem 0.5rem;
+    border-radius: 70%;
+    background-color: var(--white);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card-dismiss > svg {
+    width: 18px;
+    height: 18px;
+}
