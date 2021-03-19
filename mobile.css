@@ -8,6 +8,7 @@
     --background-gray : #3e446a;
     --text : #e2e2e2;
     --white : #ffffff;
+    --floating : #1de5ce;
 }
 *{
     margin: 0;
@@ -139,7 +140,7 @@
     padding: 0.3rem 0.4rem;
     border-radius: 100%;
     border-style: none;
-    background-color: var(--primary);
+    background-color: var(--floating);
     outline: none;
 }
 /* BADGE */
@@ -229,5 +230,47 @@
     height: auto;
 }
 .rounded__image{
-    border-radius: 100%;
+    border-radius: 50%;
+}
+/* INPUT */
+.inputText{
+    padding: 0.5rem 0.2rem;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    outline: none;
+    border-color: var(--background-secondary);  
+    width: 100%;
+    transition: all 0.25s ease-out;
+}
+.inputText:focus{
+    border-color: var(--primary);
+}
+.input-textArea {
+    padding: 0.5rem 0.2rem;
+    width: 100%;
+    border: 2px solid;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    outline: none;
+    border-color: var(--background-secondary);
+    resize: none;
+    transition: all 0.25s ease-out;
+}
+.input-textArea:focus{
+    border-color: var(--primary);
+}
+.input-textArea::-webkit-scrollbar{
+    display: none;
+}
+.error{
+    border-color: var(--danger);
+    color: red;
+}
+.error:focus{
+    border-color: var(--danger);
+}
+.error__message{
+    color: var(--danger);
 }
