@@ -213,9 +213,7 @@
 }
 .card__horizontal{
     display: flex;
-    flex-direction: column;
     width: 100%;
-    max-width: 350px;
 }
 .card__horizontal__img{
     flex-grow: 2;
@@ -273,4 +271,108 @@
 }
 .error__message{
     color: var(--danger);
+}
+.no-error{
+    display: none;
+}
+
+/* LISTS */
+.list__stack{
+    list-style: none;
+    padding-inline-start: 0;
+   
+}
+.list__stack__item{
+    padding: 1rem;
+    border: 0.5px solid #d2c9c9;
+}
+.list__spaced{
+    list-style: none;
+    padding-inline-start: 0;
+   
+}
+.list__spaced__item{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 0.5px solid #d2c9c9;
+}
+/* MODAL */
+.modal{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid #d2c9c9;
+    border-radius: 0.7rem;
+    position: fixed;
+    top: 30%;
+    left: 3%;
+    background-color: var(--white);
+    z-index: 10;
+}
+.modal__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.modal__close{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.modal__body{
+    text-align: left;
+    padding: 1rem;
+}
+.modal__text{
+    line-height: 1.3;
+}
+.modal__footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.5rem;
+}
+  /* GRID */
+  .grid__row__4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid__col__4{
+    border: 0.5px solid black;
+}
+.grid__row__6{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid__col__6{
+    border: 0.5px solid black;
+}
+/* TEXT UTILITIES */
+.text__gray{
+    color: rgb(161, 161, 161);
+}
+.text__center{
+    text-align: center;
+}
+.text__small{
+    color: gray;
+}
+/* SNACKBAR */
+.snackbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    width: 300px;
+    font-weight: bold;
+}
+.snackbar__primary{
+    background-color: var(--success);
+}
+.snackbar__secondary{
+    background-color: var(--background-gray);
+    color: var(--text);
+    color: orange;
 }

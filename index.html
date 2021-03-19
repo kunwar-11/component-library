@@ -149,9 +149,12 @@
     <h3 style="text-align: center; margin: 1rem;">INPUTS</h3>
         <div class="input">
             <input type="text" class="inputText" placeholder="input">
+            <small class="no-error">no error</small>
         </div>
         <div class="input">
     <textarea  class="input-textArea" placeholder="enter your text"></textarea>
+    <small class="no-error">no error</small>
+        </div>
     <div class="input-error">
         <input type="text" class="inputText error">
         <small class="error__message">there is an error</small>
@@ -161,6 +164,87 @@
 <small class="error__message">there is an error</small>
 </div>
 <div class="divider"></div>
-
+<h3 style="text-align: center; margin: 1rem;">LIST (spaced and stacked)</h3>
+<ul class="list__stack">
+    <li class="list__stack__item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error accusamus, harum pariatur temporibus fuga repudiandae perspiciatis nobis suscipit. Eum non esse voluptatem excepturi dolore cupiditate et delectus enim beatae facilis.</li>
+    <li class="list__stack__item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, nisi? Cumque aliquid nobis ea eum. Perferendis labore, voluptate vel laudantium quas odio, dolores neque quisquam ducimus officiis est, fuga ea!</li>
+    <li class="list__stack__item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus qui dolore esse itaque excepturi minima debitis iusto reprehenderit ipsam recusandae dolores inventore repellendus, voluptate iure nesciunt fugiat. Cupiditate, sed autem.</li>
+    <li class="list__stack__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos illum quidem quae, eveniet eius corrupti culpa iure et consequatur esse vitae neque, velit voluptatibus quo quia a reiciendis, beatae error. Apple</li>
+    </ul>
+    <div class="divider"></div>
+    <ul class="list__spaced">
+        <li class="list__spaced__item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error accusamus, harum pariatur temporibus fuga repudiandae perspiciatis nobis suscipit. Eum non esse voluptatem excepturi dolore cupiditate et delectus enim beatae facilis.</li>
+        <li class="list__spaced__item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, nisi? Cumque aliquid nobis ea eum. Perferendis labore, voluptate vel laudantium quas odio, dolores neque quisquam ducimus officiis est, fuga ea!</li>
+        <li class="list__spaced__item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus qui dolore esse itaque excepturi minima debitis iusto reprehenderit ipsam recusandae dolores inventore repellendus, voluptate iure nesciunt fugiat. Cupiditate, sed autem.</li>
+        <li class="list__spaced__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos illum quidem quae, eveniet eius corrupti culpa iure et consequatur esse vitae neque, velit voluptatibus quo quia a reiciendis, beatae error. Apple</li>
+</ul>
+<div class="divider"></div>
+<h3 style="text-align: center; margin: 1rem;">NAVIGATION</h3>
+<nav class="navbar">
+    <div class="nav__brand">
+        <h2><a class="navbrand__head" href="">navBrand</a></h2>
+    </div>
+    <div class="nav__items">
+        <a class="nav__pills" href="">item1</a>
+        <a class="nav__pills" href="">item2</a>
+        <a class="nav__pills" href="">item3</a>
+        <a class="nav__pills" href="">item4</a>
+    </div>
+</nav>
+<div class="divider"></div>
+<div class="modal">
+    <div class="modal__header">
+        <h3>modal header</h3>
+        <div class="modal__close">
+            <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg  id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M443.6,387.1L312.4,255.4l131.5-130c5.4-5.4,5.4-14.2,0-19.6l-37.4-37.6c-2.6-2.6-6.1-4-9.8-4c-3.7,0-7.2,1.5-9.8,4  L256,197.8L124.9,68.3c-2.6-2.6-6.1-4-9.8-4c-3.7,0-7.2,1.5-9.8,4L68,105.9c-5.4,5.4-5.4,14.2,0,19.6l131.5,130L68.4,387.1  c-2.6,2.6-4.1,6.1-4.1,9.8c0,3.7,1.4,7.2,4.1,9.8l37.4,37.6c2.7,2.7,6.2,4.1,9.8,4.1c3.5,0,7.1-1.3,9.8-4.1L256,313.1l130.7,131.1  c2.7,2.7,6.2,4.1,9.8,4.1c3.5,0,7.1-1.3,9.8-4.1l37.4-37.6c2.6-2.6,4.1-6.1,4.1-9.8C447.7,393.2,446.2,389.7,443.6,387.1z"/></svg>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div class="modal__body">
+        <p class="modal__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium placeat quos.
+        </p>
+    </div>
+    <div class="divider"></div>
+    <div class="modal__footer">
+        <button class="btn btn-primary-danger">Close</button><button class="btn btn-primary">save changes</button>
+    </div>
+</div>
+<h3 style="text-align: center; margin: 1rem;">GRID LAYOUT</h3>
+<div class="grid__row__4">
+    <div class="grid__col__4">1 of 3</div>
+    <div class="grid__col__4">2 of 3</div>
+    <div class="grid__col__4">3 of 3</div>
+</div>
+<div class="grid__row__6">
+    <div class="grid__col__6">1 of 2</div>
+    <div class="grid__col__6">2 of 2</div>
+</div>
+<div class="divider"></div>
+<h3 style="text-align: center; margin: 1rem;">TEXT UTILITIES</h3>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iure magnam facilis quae numquam, mollitia voluptatum dolor nihil eos commodi quod voluptates facere quam, provident eveniet quisquam culpa aspernatur delectus.</p>
+<h3 class="text__gray">
+    this is a gray text
+</h3>
+<h3 class="text__center">this is cenntered text</h3>
+<small class="text__small">
+    this is small text
+</small>
+<div class="divider"></div>
+<h3 style="text-align: center; margin: 1rem;">SNACKBAR</h3>
+<div class="snackbar snackbar__primary">
+    <p>this is a snackbar</p>
+    <div class="close__snackbar">X</div>
+</div>
+<div class="snackbar snackbar__secondary">
+    <p>this is a snackbar</p>
+    <div class="close__snackbar">X</div>
+</div>
 </body>
 </html>
