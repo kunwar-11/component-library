@@ -296,6 +296,23 @@
     margin-bottom: 1rem;
     border: 0.5px solid #d2c9c9;
 }
+/* NAVIGATION */
+.navbar{
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--text);
+}
+.navbrand__head{
+    text-decoration: none;
+    color: inherit;
+}
+.nav__pills{
+    margin-left: 3rem;
+    text-decoration: none;
+    color: inherit;
+}
 /* MODAL */
 .modal{
     width: 100%;
@@ -476,7 +493,7 @@
         max-width: 500px;
     }
     /* NAVIGATION */
-    .navbar{
+    /* .navbar{
         padding: 2rem 5rem;
         display: flex;
         justify-content: space-between;
@@ -491,7 +508,7 @@
         margin-left: 3rem;
         text-decoration: none;
         color: inherit;
-    }
+    } */
     /* MODAL */
     .modal{
         max-width: 560px;
