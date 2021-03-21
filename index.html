@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mobile.css">
-    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Component Library</title>
 </head>
 <body>
@@ -192,6 +191,8 @@
     </div>
 </nav>
 <div class="divider"></div>
+<h3 style="text-align: center; margin: 1rem;">MODAL</h3>
+<button class="btn btn-primary" id="open-modal">Open Modal</button>
 <div class="modal">
     <div class="modal__header">
         <h3>modal header</h3>
@@ -207,7 +208,7 @@
     </div>
     <div class="divider"></div>
     <div class="modal__footer">
-        <button class="btn btn-primary-danger">Close</button><button class="btn btn-primary">save changes</button>
+        <button class="btn btn-primary-danger" id="btn-close-modal">Close</button><button class="btn btn-primary">save changes</button>
     </div>
 </div>
 <h3 style="text-align: center; margin: 1rem;">GRID LAYOUT</h3>
@@ -246,5 +247,6 @@
     <p>this is a snackbar</p>
     <div class="close__snackbar">X</div>
 </div>
+<script src="./script.js"></script>
 </body>
 </html>
