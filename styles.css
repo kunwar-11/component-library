@@ -519,23 +519,6 @@
         width: 100%;
         max-width: 500px;
     }
-    /* NAVIGATION */
-    /* .navbar{
-        padding: 2rem 5rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: var(--text);
-    }
-    .navbrand__head{
-        text-decoration: none;
-        color: inherit;
-    }
-    .nav__pills{
-        margin-left: 3rem;
-        text-decoration: none;
-        color: inherit;
-    } */
     /* MODAL */
     .modal{
         max-width: 560px;
