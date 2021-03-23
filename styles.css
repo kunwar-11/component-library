@@ -136,12 +136,21 @@
     text-decoration: underline;
 }
 /* ICONS and FLOATING ACTION BUTTON */
+.icon{
+    border: none;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+
+}
 .floating-action{
     padding: 0.3rem 0.4rem;
     border-radius: 100%;
     border-style: none;
     background-color: var(--floating);
     outline: none;
+    width: 40px;
+    height: 40px;
 }
 /* BADGE */
 .badge{
@@ -153,6 +162,22 @@
     border-radius: 2rem;
     font-size: 0.7em;
     padding: 2px 6px;
+}
+.badge__on__avatar{
+    display: inline-block;
+    position: relative;
+}
+.badge-round{
+    width: 11px;
+    height: 11px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+}
+.badge-round-2x{
+    width: 15px;
+    height: 15px;
 }
 .badge-primary{
     background-color: var(--primary);
@@ -174,7 +199,7 @@
 .card{
     display: flex;
     flex-direction: column;
-    margin: 0rem 0.6rem;
+    width: 100%;
 }
 .card__header{
     margin: 1rem 0rem;
@@ -202,7 +227,7 @@
     position: absolute;
     top: 8px;
     right: 8px;
-    padding: 4px 6px;
+    padding: 6px 10px;
     background-color: var(--white);
     border-radius: 100%;
     z-index: 10;
@@ -472,6 +497,8 @@
     /*  ICONS and FLOATING ACTION BUTTON*/
     .floating-action{
         padding: 0.7rem 0.8rem;
+        height: 50px;
+        width: 50px;
     }
     /* BADGE */
     .badge ,.badge-pills{
