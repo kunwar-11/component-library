@@ -10,6 +10,9 @@
     --white : #ffffff;
     --floating : #1de5ce;
     --snackbar-secondary : orange;
+    --text-muted : rgb(161, 161, 161);
+    --black : black;
+    --off-white : #d2c9c9;
 }
 *{
     margin: 0;
@@ -115,7 +118,7 @@
 }
 .btn-secondary-danger:hover{
     background-color: var(--danger);
-    color: white;
+    color: var(--white);
 }
 /* LINKS */
 .link{
@@ -190,7 +193,7 @@
 }
 .badge-warning{
     background-color: var(--warning);
-    color: black;
+    color: var(--black);
 }
 .badge-danger{
     background-color: var(--danger);
@@ -290,7 +293,7 @@
 }
 .error{
     border-color: var(--danger);
-    color: red;
+    color: var(--danger);
 }
 .error:focus{
     border-color: var(--danger);
@@ -310,7 +313,7 @@
 }
 .list__stack__item{
     padding: 1rem;
-    border: 0.5px solid #d2c9c9;
+    border: 0.5px solid var(--off-white);
 }
 .list__spaced{
     list-style: none;
@@ -320,7 +323,7 @@
 .list__spaced__item{
     padding: 1rem;
     margin-bottom: 1rem;
-    border: 0.5px solid #d2c9c9;
+    border: 0.5px solid var(--off-white);
 }
 /* NAVIGATION */
 .navbar{
@@ -348,7 +351,7 @@
     max-width: 400px;
     display: flex;
     flex-direction: column;
-    border: 0.5px solid #d2c9c9;
+    border: 0.5px solid var(--off-white);
     border-radius: 0.7rem;
     position: fixed;
     top: 30%;
@@ -387,18 +390,18 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 .grid__col__4{
-    border: 0.5px solid black;
+    border: 0.5px solid var(--black);
 }
 .grid__row__6{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 .grid__col__6{
-    border: 0.5px solid black;
+    border: 0.5px solid var(--black);
 }
 /* TEXT UTILITIES */
 .text__muted{
-    color: rgb(161, 161, 161);
+    color: var(--text-muted);
 }
 .text__center{
     text-align: center;
@@ -497,7 +500,7 @@
     }
     .btn-secondary-danger:hover{
         background-color: var(--danger);
-        color: white;
+        color: var(--white);
     }
     /* LINKS */
     .link{
@@ -541,14 +544,14 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
     .grid__col__4{
-        border: 0.5px solid black;
+        border: 0.5px solid var(--black);
     }
     .grid__row__6{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
     .grid__col__6{
-        border: 0.5px solid black;
+        border: 0.5px solid var(--black);
     }
     /* SNACKBAR */
     .snackbar{
