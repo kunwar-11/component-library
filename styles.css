@@ -9,6 +9,7 @@
     --text : #e2e2e2;
     --white : #ffffff;
     --floating : #1de5ce;
+    --snackbar-secondary : orange;
 }
 *{
     margin: 0;
@@ -396,14 +397,14 @@
     border: 0.5px solid black;
 }
 /* TEXT UTILITIES */
-.text__gray{
+.text__muted{
     color: rgb(161, 161, 161);
 }
 .text__center{
     text-align: center;
 }
 .text__small{
-    color: gray;
+    font-size: 0.5rem;
 }
 /* SNACKBAR */
 .snackbar{
@@ -425,7 +426,7 @@
 .snackbar__secondary{
     background-color: var(--background-gray);
     color: var(--text);
-    color: orange;
+    color: var(--snackbar-secondary);
 }
 .close__snackbar{
     cursor: pointer;
