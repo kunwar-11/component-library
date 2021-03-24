@@ -434,6 +434,34 @@
 .close__snackbar{
     cursor: pointer;
 }
+/* COLOR UTILITIES */
+.bg-dark{
+    background-color: var(--background-primary);
+}
+.bg-light {
+    background-color: var(--text);
+}
+.text-light {
+    color: var(--text);
+}
+.text-dark {
+    color: var(--black);
+}
+.text-primary {
+    color : var(--primary)
+}
+.text-success {
+    color : var(--success)
+}
+.text-danger {
+    color : var(--danger)
+}
+.text-warning {
+    color : var(--warning)
+}
+.text-headings {
+    color : var(--orange)
+}
 @media screen and (min-width : 768px) {
     /* ALERT */
     .alert{
