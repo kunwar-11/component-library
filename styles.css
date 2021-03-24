@@ -329,6 +329,9 @@
     align-items: center;
     background-color: var(--text);
 }
+.active {
+    font-weight: bold;
+}
 .navbrand__head{
     text-decoration: none;
     color: inherit;
@@ -408,8 +411,13 @@
     justify-content: space-between;
     padding: 0.5rem;
     align-items: center;
+    width: 100%;
     max-width: 220px;
+    position: fixed;
+    right: 2%;
+    bottom: 3%;
     font-weight: bold;
+    display: none;
 }
 .snackbar__primary{
     background-color: var(--success);
@@ -506,7 +514,7 @@
     }
     /* CARDS*/
     .card{
-        max-width: 300px;
+        max-width: 17rem;
         width: 100%;
         margin: 0;
     }
