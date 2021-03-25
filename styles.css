@@ -251,7 +251,6 @@
 }
 .card__horizontal__img{
     flex-grow: 2;
-    margin-right: 0.5rem;
 }
 .card__shadow{
     box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
