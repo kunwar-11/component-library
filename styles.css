@@ -276,6 +276,7 @@
     width: 100%;
     transition: all 0.25s ease-out;
     background-color: transparent;
+    color: var(--text);
 }
 .inputText:focus{
     border-color: var(--primary);
@@ -292,6 +293,7 @@
     resize: none;
     transition: all 0.25s ease-out;
     background-color: transparent;
+    color: var(--text);
 }
 .input-textArea:focus{
     border-color: var(--primary);
