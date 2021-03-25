@@ -272,7 +272,7 @@
     border-right-style: none;
     border-left-style: none;
     outline: none;
-    border-color: var(--background-secondary);  
+    border-color: var(--white);  
     width: 100%;
     transition: all 0.25s ease-out;
     background-color: transparent;
@@ -288,7 +288,7 @@
     border-right-style: none;
     border-left-style: none;
     outline: none;
-    border-color: var(--background-secondary);
+    border-color: var(--white);
     resize: none;
     transition: all 0.25s ease-out;
     background-color: transparent;
