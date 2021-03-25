@@ -142,11 +142,17 @@
 }
 /* ICONS and FLOATING ACTION BUTTON */
 .icon{
-    border: none;
-    background-color: transparent;
-    width: 30px;
-    height: 30px;
-
+    display: flex;
+    align-items: center;
+}
+.icon-text{
+    padding-left: 0.5rem;
+}
+.icon-only{
+    cursor: pointer;
+}
+.icon-only:hover{
+    color: var(--orange);
 }
 .floating-action{
     padding: 0.3rem 0.4rem;
@@ -166,9 +172,9 @@
     background-color: var(--background-gray);
     border-radius: 2rem;
     font-size: 0.7em;
-    padding: 2px 6px;
+    padding: 2px;
 }
-.badge__on__avatar{
+.badge__on__avatar,.badge-on-icon{
     display: inline-block;
     position: relative;
 }
@@ -179,6 +185,11 @@
     position: absolute;
     bottom: 5px;
     right: 0;
+}
+.badge-notification{
+    position: absolute;
+    top: -5px;
+    left: 5px;
 }
 .badge-round-2x{
     width: 15px;
