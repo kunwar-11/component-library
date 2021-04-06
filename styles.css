@@ -222,7 +222,7 @@
 }
 .card__body__container{
     background-color: var(--white);
-    padding: 0rem 0.5rem;
+    padding: 0.5rem;
 }
 .card__body{
    font-size: 0.9rem;
