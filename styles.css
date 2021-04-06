@@ -220,6 +220,7 @@
 }
 .card__header{
     margin: 1rem 0rem;
+    flex-grow: 2;
 }
 .card__body__container{
     background-color: var(--white);
