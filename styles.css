@@ -240,10 +240,10 @@
     left: 0px;
     padding: 0.5rem 1rem;
 }
-.card__with__dismiss{
+.card__with__overlayButton{
     position: relative;
 }
-.card__dismiss{
+.card__overlayButton{
     position: absolute;
     top: 8px;
     right: 8px;
