@@ -447,6 +447,7 @@
     right: 2%;
     bottom: 3%;
     font-weight: bold;
+    z-index: 999;
     display: none;
 }
 .snackbar__primary{
